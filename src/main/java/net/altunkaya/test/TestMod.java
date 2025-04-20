@@ -1,6 +1,7 @@
 package net.altunkaya.test;
 
 import net.altunkaya.test.block.ModBlocks;
+import net.altunkaya.test.item.ModItemGroups;
 import net.altunkaya.test.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,12 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+
+		ModItemGroups.registerItemGroups();
+
 	}
 }
