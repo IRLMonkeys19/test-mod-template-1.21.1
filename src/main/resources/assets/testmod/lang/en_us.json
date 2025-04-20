@@ -9,7 +9,14 @@
   "block.testmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.testmod.pink_garnet_deepslate_ore": "Deepslate Pink Garnet Ore",
 
+  "item.testmod.chisel": "Chisel",
+  "item.testmod.lucky_stone": "Lucky Stone",
+  "item.testmod.magic_torch": "Magic Torch",
 
+
+
+
+  "itemgroup.testmod.test_mod_custom_items": "Custom Items",
   "itemgroup.testmod.test_mod_items": "Test Mod Items",
   "itemgroup.testmod.test_mod_blocks": "Test Mod Blocks"
 

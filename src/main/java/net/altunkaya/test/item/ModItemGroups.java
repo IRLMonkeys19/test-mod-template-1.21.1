@@ -22,6 +22,10 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.PINK_GARNET);
+
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.LUCKY_STONE);
+                        entries.add(ModItems.MAGIC_TORCH);
                     }).build());
 
     public static final ItemGroup TEST_MOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -36,6 +40,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                     }).build());
+
 
 
 
