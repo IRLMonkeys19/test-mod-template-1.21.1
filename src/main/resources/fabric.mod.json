@@ -3,13 +3,13 @@
 	"id": "test-mod",
 	"version": "${version}",
 	"name": "Test Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Test Mod by IRLM",
 	"authors": [
-		"Me!"
+		"IRLM"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/IRLMonkeys19/test-mod-template-1.21.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/test-mod/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.altunkaya.test.TestModDataGenerator"
+		],
+		"client": [
+			"net.altunkaya.test.TestModClient"
 		]
 	},
 	"mixins": [
